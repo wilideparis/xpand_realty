@@ -1,0 +1,193 @@
+.p2{
+    margin-bottom: 25rem;
+}
+
+body{
+    overflow-x: hidden;
+}
+       .white{
+        color:black;
+        background-color: white;
+       }
+       
+        
+        /* .p1{
+            margin-bottom: 10rem;
+        } */
+        .hide{
+            opacity:0;
+           
+        }
+        .hide2{
+            opacity: 0.5;
+        }
+        .hide1{
+            opacity: 0.5;
+        }
+        .hide5{
+            opacity:1 ;
+        }
+        .show{
+            opacity:0;
+        }
+
+       .one{    
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 80px;
+        z-index: -1;
+       
+    }  
+
+
+
+.content{
+    z-index: 99;
+   margin-top: 100%;
+    font-size: 2rem;
+    height: 300vh;  
+    display:block;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.content p{
+    color: white;
+   
+    margin-top: 10rem;
+    font-size: 4rem;
+}
+.p3{
+    opacity: 1;
+   
+}
+
+.btn{
+    width: 10rem;
+    height: 4rem;
+    background: black;
+    color: white;
+    font-size: 2rem;
+    border-radius: 4rem;
+    border: 1px solid white;
+   margin-top: -20rem;
+}
+
+.slide-two{
+    width: 100vw;
+    
+    overflow: hidden;
+    display: flex;  
+  margin-top: 10rem;
+    align-items: center;
+    color: white;
+}
+.number-entry{
+    
+    margin-right: 10px;
+}
+.number-entry input{
+    font-family: 'Courier New', Courier, monospace;
+    width: 1.5rem;
+    text-align: center;
+    /* height: 4rem; */
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    margin-right: -2px;
+    /* margin: 5px; */ 
+     margin-bottom: -px;
+    padding:-10px 0px;
+    font-size: 24px;
+}
+.slide-three{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    color: white;
+    transition: 0.9;
+}
+
+.hidden1, .hidden2{
+    height: 0;
+    display: none;
+
+}
+#text::marker{
+border: none;
+
+
+}
+.slide-two{
+    display: flex;
+    justify-content: center;
+    
+}
+#text{
+   border-bottom: 1px solid black;
+    border-color:black ;
+   font-family: 'Courier New', Courier, monospace;
+   outline: none;
+    background-color:black;
+    /* border: none; */
+  
+    color: white;
+    font-size: 24px;
+    margin-right:3px;
+}
+.num{margin-top: -2rem;margin-bottom: 2rem;}
+.footer{position: fixed; margin:0 -4rem; width: 100%;height: 5rem; display: flex; justify-content: space-between; z-index: 99; color: white;   bottom: 0;   margin-bottom: 0px;     font-weight: 100;}
+#first{
+    position: absolute;
+    margin-left: 5rem;
+    bottom: 0;
+}
+.footer div p{  margin: 1rem; font-size: x-small;}
+.second{  display: flex;   justify-content: space-between;}
+.second p{  margin: 1rem; margin-top: -2rem;margin-bottom: 3vh;}
+/* .p1{  position: absolute;   left: 450px;  top: -100px;} */
+
+.btn:hover{
+
+   /* border-color: brown; */
+    cursor: pointer; 
+}
+
+.slide-two div:hover{
+    cursor: pointer;
+}
+
+.slide-three h4:hover{
+    cursor: pointer;
+}
+.anime{
+    animation: grow 2s ease 0s 1  forwards;
+}
+@keyframes grow {
+    0%{
+        font-size:64px;
+        
+    }
+    100%{
+        font-size:4rem;
+      
+    }
+
+}
+.star span{
+    z-index: 1;
+    /* color: rgb(235, 4, 4); */
+ /* position: fixed; */
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 1rem;
+border: 1px solid black;
+}
